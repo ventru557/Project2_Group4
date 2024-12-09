@@ -2,7 +2,7 @@
 Added Jupyter file and removed loan.csv file
 Trimmed loan.csv file to 150,000 entries - from 887,000 - to reduce file size from 437 MB to 83 MB
 # **Notebook - Rev 2** 
-## The following cleaning and analytical steos were taken in this revision:
+## The following cleaning and analytical steps were taken in this revision:
 ### Dataset was trimmed to 150,000
 ### The number of columns from the original dataset was reduced from 73 to 20, 
 ### keeping the most relevant columns for analysis
