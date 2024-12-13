@@ -29,7 +29,7 @@ This project demonstrates the application of data analysis and machine learning 
 
 ## How We Picked the Dataset
 
-The dataset was chosen from a credit risk analysis repository due to its detailed representation of real-world financial attributes. It includes data on borrowers, loan statuses, and credit grades, making it ideal for predictive modeling of financial risk.
+The dataset was from Kaggle. The reaosn it was chosen from a credit risk analysis repository due to its detailed representation of real-world financial attributes. It includes data on borrowers, loan statuses, and credit grades, making it ideal for predictive modeling of financial risk.
 
 ---
 
