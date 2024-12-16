@@ -43,6 +43,9 @@ The dataset for this project was chosen from Kaggle’s Credit Risk Analysis rep
 
 The dataset consists of 88,738 entries and 74 columns, which provide sufficient data to train and test various machine learning models for predicting credit risk. We focused on attributes directly related to financial strength, as they were key to determining the borrower’s ability to repay loans.
 
+**Source**: Kaggle Credit Risk Dataset
+**Source URL**: https://www.kaggle.com/datasets/ranadeep/credit-risk-dataset/data
+
 ---
 
 ## Difficulties and Concerns
@@ -165,6 +168,7 @@ Random Forest is an ensemble method that combines several decision trees to impr
    - `Loan_Status.ipynb`: This notebook handles data cleaning, encoding, and preprocessing.
    - `Grade_model.ipynb`: This notebook focuses on training and evaluating machine learning models.
 4. Inspect the visualizations and results generated in each notebook.
+5. **Quick Start**: To get started faster, use the **loan_sample.csv** file, which contains 100 rows for a quick test. This will help you explore the tool and see its results without working with the entire dataset.
 
 ---
 
