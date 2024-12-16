@@ -1,7 +1,7 @@
 
 # Credit Risk Analysis
 
-This project demonstrates how machine learning techniques can be used to analyze credit risk, focusing on predicting borrower creditworthiness. The dataset comprises various financial attributes, such as loan amounts, interest rates, debt-to-income ratios, and credit statuses, that help model and evaluate financial risks. By using advanced data preprocessing and machine learning models, this project aims to derive meaningful insights that support smarter lending decisions.
+This project demonstrates how machine learning techniques can be used to analyze credit risk, focusing on predicting borrowers' creditworthiness. The dataset comprises various financial attributes, such as loan amounts, interest rates, debt-to-income ratios, and credit statuses, that help model and evaluate financial risks. By using advanced data preprocessing and machine learning models, this project aims to derive meaningful insights that support smarter lending decisions.
 
 ---
 
@@ -23,7 +23,7 @@ This project demonstrates how machine learning techniques can be used to analyze
 
 ## Introduction
 
-The purpose of this project is to explore the relationships between borrower financial data and creditworthiness. We use machine learning techniques to create predictive models that estimate the likelihood of a borrower defaulting on their loan. By analyzing a dataset sourced from Kaggle’s Credit Risk Analysis repository, we apply various preprocessing techniques, feature engineering, and model evaluation strategies to predict the borrowers' credit risk grades.
+The purpose of this project is to explore the relationships between borrowers' financial data, and determine their creditworthiness. We use machine learning techniques to create predictive models that estimate the likelihood of a borrower defaulting on their loan. By analyzing a dataset sourced from Kaggle’s Credit Risk Analysis repository, we apply various preprocessing techniques, feature engineering, and model evaluation strategies to predict the borrowers' credit risk grades.
 
 We employ several machine learning models such as XGBoost and Random Forest, which are known for their efficiency in handling complex datasets and imbalanced class distributions. The final objective is to determine which model provides the most accurate predictions and insights into creditworthiness.
 
