@@ -142,6 +142,14 @@ Random Forest is an ensemble method that combines several decision trees to impr
 - **Random Forest**: Achieved a testing accuracy of **96.2%**. This high accuracy demonstrates that Random Forest effectively classifies loan statuses and can identify default risks. The model also provides valuable insights into feature importance, with high-impact features like `int_rate` (interest rate) playing a key role in prediction.
 
 - **XGBoost**: Delivered near-perfect precision, recall, and F1-scores, with an overall accuracy of **99%**. XGBoost's performance was exceptional, especially when dealing with imbalanced classes. The model's ability to handle missing data and focus on the most significant features made it the best-performing model in this project.
+ 
+|                          |     N_estimators    |     Max_depth    |     Learning_rate    |     Subsample    |     ROC score    |
+|--------------------------|---------------------|------------------|----------------------|------------------|------------------|
+|     original             |     500             |     6            |     0.1              |     0.8          |     68           |
+|     RandomOversampler    |     500             |     6            |     0.1              |     0.8          |     74.96        |
+|     RandomSearchCV       |     172             |     9            |     0.1015308        |     0.71314      |     89.89        |
+|     GridSearchCV         |     100             |     7            |     0.1              |     0.7          |     79.56        |
+  
 
 ### Key Insights:
 - **Interest Rate (`int_rate`)**: This was the most influential feature in determining loan grade. Higher interest rates are generally associated with higher-risk loans, and this feature emerged as a key determinant in both models.
