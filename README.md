@@ -51,7 +51,7 @@ The dataset consists of 88,738 entries and 74 columns, which provide sufficient 
 ## Difficulties and Concerns
 
 ### 1. **High Dimensionality**:
-The dataset initially contained 74 columns, many of which were irrelevant or redundant. Having too many columns can introduce noise into the models, making them less efficient and harder to interpret. 
+The dataset initially contained **887,000** rows, many of which were irrelevant or redundant. Having too many columns can introduce noise into the models, making them less efficient and harder to interpret. 
 
 ### 2. **Class Imbalance**:
 One of the major challenges was the class imbalance present in the dataset. The majority of the loan statuses were "Fully Paid," while the "Default" and "Charged Off" statuses were much less frequent. This imbalance could cause the model to be biased toward predicting the majority class (Fully Paid), making it less sensitive to the minority classes (Default and Charged Off).
